@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/editor_db
+    username: editor_user
+    password: 설정한비밀번호
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
