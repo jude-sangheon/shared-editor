@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:8080/api/documents';
+const API_URL = 'https://shared-editor-production.up.railway.app/api/documents';
 
 export const getAllDocuments = () => axios.get(API_URL);
 export const getDocument = (id) => axios.get(`${API_URL}/${id}`);
