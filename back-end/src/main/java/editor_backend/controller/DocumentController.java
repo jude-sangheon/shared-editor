@@ -10,7 +10,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/documents")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = {"http://localhost:3000", "https://shared-editor-jade.vercel.app"})
 public class DocumentController {
 
     private final DocumentService documentService;
